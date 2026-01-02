@@ -31,6 +31,12 @@ dependencies = [
     # Altres dependències útils
     "pydantic>=2.0.0",
     "requests>=2.31.0",
+
+    # Gmail API dependencies
+    "google-auth>=2.34.0",
+    "google-auth-oauthlib>=1.2.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-api-python-client>=2.147.0",
 ]
 
 [project.optional-dependencies]

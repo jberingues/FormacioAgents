@@ -11,7 +11,7 @@ Repositori oficial per a la formació interna d'agents d'IA utilitzant CrewAI i 
 
 ## 📚 Contingut de la Formació
 
-### **Part 0: Setup (00_setup_crewai.ipynb)**
+### **Part 0: Setup (00_setup_crewai.ipynb)** -- Executar abans de la formació
 - Configuració de l'entorn de desenvolupament
 - Instal·lació d'UV i dependències
 - Configuració d'API Keys (Gemini i Gmail)
@@ -59,7 +59,7 @@ Abans de començar, assegura't de tenir instal·lat:
 
 ### **2. Comptes necessaris**
 
-- ✅ **Compte Google/Gmail** (per API Keys i Gmail API)
+- ✅ **Compte Google/Gmail no JCM** (per API Keys i Gmail API)
 - ✅ **Accés a Google AI Studio** - https://aistudio.google.com/
 - ✅ **Accés a Google Cloud Console** - https://console.cloud.google.com/ (per Part 3)
 
@@ -79,15 +79,15 @@ git --version       # Qualsevol versió recent
 
 ### **Pas 1: Clonar el repositori**
 ```bash
-git clone https://github.com/jcm-tech/formacio-agents.git
-cd formacio-agents
+git clone https://github.com/jcm-tech/formacioagents.git
+cd formacioagents
 ```
 
 ### **Pas 2: Obrir a Cursor**
 
 1. Obre **Cursor**
 2. `File` → `Open Folder...`
-3. Selecciona la carpeta `formacio-agents/`
+3. Selecciona la carpeta `formacioagents/`
 
 ### **Pas 3: Executar el Setup**
 
@@ -131,7 +131,7 @@ Resumidament:
 
 ## 📁 Estructura del Projecte
 ```
-formacio-agents/
+formacioagents/
 ├── README.md                                    # Aquest fitxer
 ├── pyproject.toml                               # Dependències del projecte
 ├── uv.lock                                      # Versions exactes (generat per UV)

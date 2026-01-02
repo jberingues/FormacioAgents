@@ -106,28 +106,6 @@ El Setup farà automàticament:
 
 ---
 
-## 🔑 Configuració d'API Keys
-
-### **Google Gemini API Key**
-
-1. Ves a **Google AI Studio:** https://aistudio.google.com/app/apikey
-2. Fes clic a **"Get API Key"** o **"Create API Key"**
-3. Copia la key
-4. Enganxa-la al fitxer `.env` (es crearà automàticament durant el Setup)
-
-### **Gmail API** (per Part 3)
-
-Les instruccions detallades estan al notebook `00_setup_crewai.ipynb` (Secció 5).
-
-Resumidament:
-1. Crear projecte a Google Cloud Console
-2. Activar Gmail API
-3. Crear credencials OAuth 2.0
-4. Descarregar `credentials.json`
-
-**💡 Nota:** Es pot fer durant la formació, no cal fer-ho abans.
-
----
 
 ## 📁 Estructura del Projecte
 ```

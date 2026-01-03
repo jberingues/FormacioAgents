@@ -208,6 +208,7 @@ __marimo__/
 
 # Dades generades
 data/
+outputs/
 
 # Credencials
 credentials.json

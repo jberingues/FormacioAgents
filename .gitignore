@@ -213,3 +213,5 @@ formacioagents/outputs/
 # Credencials
 credentials.json
 token.json
+
+.DS_Store

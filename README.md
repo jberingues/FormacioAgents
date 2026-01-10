@@ -247,37 +247,6 @@ Contacta amb el formador: jordi@jcmtechnologies.com
 
 ---
 
-## 📅 Informació de la Sessió
-
-**Data:** [DATA DE LA FORMACIÓ]  
-**Horari:** [HORA INICI] - [HORA FI]  
-**Lloc:** [SALA/EDIFICI]  
-**Durada:** 4 hores (amb breaks de 10 min cada hora)
-
-### Què portar:
-✅ Ordinador portàtil (bateria carregada + carregador)  
-✅ Setup completat (00_setup_crewai.ipynb)  
-✅ Ganes d'aprendre! 🚀  
-
----
-
-## 👥 Sobre la Formació
-
-**Formador:** Jordi Beringues  
-**Rol:** Director R+D  
-**Empresa:** JCM Technologies, SAU  
-**Contacte:** jordi@jcmtechnologies.com
-
-Aquesta formació està dissenyada per introduir els conceptes fonamentals dels sistemes multi-agent d'IA mitjançant exemples pràctics i aplicacions reals de JCM Technologies.
-
----
-
-## 📜 Llicència
-
-Aquest material està creat per JCM Technologies, SAU i està destinat a introduir al món dels agents d'IA a tothom qui tingui interès en el tema.
-
----
-
 ## ✅ Checklist Pre-Formació
 
 Abans de venir a la formació, assegura't que:
@@ -288,7 +257,6 @@ Abans de venir a la formació, assegura't que:
 - [ ] Has completat `00_setup_crewai.ipynb`
 - [ ] La verificació final passa correctament (🎉 TOT CORRECTE!)
 - [ ] Tens l'API Key de Gemini guardada
-- [ ] Portes el portàtil + carregador
 
 **Si tot està ✅ → Estàs preparat!**
 

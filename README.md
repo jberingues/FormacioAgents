@@ -171,7 +171,7 @@ formacioagents/
 ├── .gitignore                                   # Fitxers a ignorar
 ├── 00_setup_crewai.ipynb                        # Setup inicial ⚠️ FER PRIMER
 │
-├── formacioagents/
+├── notebooks/
 │   ├── 01_conceptes_fonamentals_crewai.ipynb   # Part 1 (1h)
 │   ├── 02_tools_function_calling.ipynb         # Part 2 (1h)
 │   └── 03_cas_practic_crewai.ipynb             # Part 3 (2h)

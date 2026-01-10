@@ -207,8 +207,8 @@ marimo/_lsp/
 __marimo__/
 
 # Dades generades
-formacioagents/data/bom*
-formacioagents/outputs/
+data/
+outputs/
 
 # Credencials
 credentials.json

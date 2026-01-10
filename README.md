@@ -1,11 +1,11 @@
-# Formació d'Agents d'IA amb CrewAI
+# Introducció a Sistemes Multi-Agent amb CrewAI
 ## JCM Technologies - Departament de R+D
 
 ![CrewAI](https://img.shields.io/badge/CrewAI-0.80+-blue)
 ![Python](https://img.shields.io/badge/Python-3.10+-green)
 ![Google Gemini](https://img.shields.io/badge/Gemini-2.0-orange)
 
-Repositori oficial per a la formació interna d'agents d'IA utilitzant CrewAI i Google Gemini.
+Aquest és un repositori per a la formació interna d'agents d'IA utilitzant CrewAI.
 
 ---
 
@@ -43,66 +43,83 @@ Repositori oficial per a la formació interna d'agents d'IA utilitzant CrewAI i 
 
 ---
 
-## ⚙️ Pre-requisits
+## 📋 PREPARACIÓ (30-45 minuts aprox.)
 
-Abans de començar, assegura't de tenir instal·lat:
+### ✅ PAS 1: Instal·lar Cursor (editor de codi)
 
-### **1. Software necessari**
+- Aneu a: **https://cursor.com**
+- Descarregueu la versió per al vostre sistema operatiu
+- Instal·leu-lo
+- Obriu-lo una vegada per verificar que funciona
 
-| Software | Versió mínima | Com instal·lar |
-|----------|---------------|----------------|
-| **Python** | 3.10+ | https://www.python.org/downloads/ |
-| **Git** | Qualsevol | https://git-scm.com/ |
-| **Cursor** | Última | https://cursor.sh/ (o VS Code) |
-
-**Nota:** **UV** (gestor de dependències) s'instal·larà automàticament durant el Setup (Secció 2).
-
-### **2. Comptes necessaris**
-
-- ✅ **Compte Google/Gmail no JCM** (per API Keys i Gmail API)
-- ✅ **Accés a Google AI Studio** - https://aistudio.google.com/
-- ✅ **Accés a Google Cloud Console** - https://console.cloud.google.com/ (per Part 3)
-
-### **3. Verificar instal·lació**
-
-Abans de clonar el repositori, verifica que tens:
-```bash
-python --version    # Ha de ser 3.10+
-git --version       # Qualsevol versió recent
-```
-
-**Nota:** UV es verificarà automàticament durant el Setup.
+**⏰ Temps:** 5 minuts
 
 ---
 
-## 🚀 Instruccions d'Instal·lació
+### ✅ PAS 2: Descarregar el repositori de la formació
 
-### **Pas 1: Clonar el repositori**
-```bash
-git clone https://github.com/jcm-tech/formacioagents.git
-cd formacioagents
-```
+Teniu **2 opcions** (escolliu la que us sigui més fàcil):
 
-### **Pas 2: Obrir a Cursor**
+#### 📦 OPCIÓ A: Descarregar ZIP (recomanat, més fàcil)
 
-1. Obre **Cursor**
-2. `File` → `Open Folder...`
-3. Selecciona la carpeta `formacioagents/`
+- Aneu a: **[URL_DEL_REPOSITORI_GITHUB]**
+- Cliqueu el botó verd **"Code"** → **"Download ZIP"**
+- Descomprimiu-lo al vostre ordinador
+- Recordeu on l'heu desat!
 
-### **Pas 3: Executar el Setup**
+**⏰ Temps:** 2 minuts
 
-1. Obre el notebook `00_setup_crewai.ipynb`
-2. Segueix les instruccions pas a pas
-3. Executa totes les cel·les amb `Shift+Enter`
+#### 🔧 OPCIÓ B: Clonar amb Git (si sou usuaris avançats)
 
-El Setup farà automàticament:
-- ✅ Instal·lar UV (gestor de dependències)
-- ✅ Crear l'entorn virtual `.venv`
-- ✅ Instal·lar totes les dependències (CrewAI, Gemini, Gmail API, etc.)
-- ✅ Configurar API Keys
-- ✅ Verificar que tot funciona
+- Instal·leu Git: **https://git-scm.com/downloads**
+- Obriu un terminal/command prompt
+- Executeu: `git clone [URL_DEL_REPOSITORI]`
 
-**⏱️ Temps estimat:** 10-15 minuts
+**⏰ Temps:** 5-10 minuts (si cal instal·lar Git)
+
+---
+
+### ✅ PAS 3: Obrir el projecte amb Cursor
+
+- Obriu Cursor
+- **File** → **Open Folder**
+- Seleccioneu la carpeta del repositori (on heu descomprimit el ZIP)
+
+---
+
+### ✅ PAS 4: Seguir les instruccions del fitxer Setup
+
+- A Cursor, obriu el fitxer: **`00_setup.ipynb`**
+- Seguiu **TOTES** les instruccions pas a pas
+
+Aquest fitxer us guiarà per:
+
+- Instal·lar Python i les dependències necessàries
+- Crear la vostra API Key de Google Gemini (gratuïta)
+- Configurar les variables d'entorn
+- (Opcional) Configurar Gmail API
+
+**⏰ Temps:** 20-30 minuts
+
+---
+
+### ✅ PAS 5: Verificar que tot funciona
+
+Al final del fitxer `00_setup.ipynb` hi ha una secció de verificació.
+
+Executeu-la i assegureu-vos que veieu: **🎉 TOT CORRECTE!**
+
+---
+
+## ⚠️ IMPORTANT
+
+- Feu **TOTS** els passos **ABANS** de la formació
+- No tindrem temps per fer la instal·lació el dia de la sessió
+- Si teniu problemes:
+  - Reviseu la secció **"Troubleshooting"** del `00_setup.ipynb`
+  - Escriviu-me: **[EL_TEU_EMAIL]**
+  - Arribeu **15 minuts abans** i us ajudo presencialment
+
 
 ---
 
@@ -203,7 +220,7 @@ Al final d'aquesta formació, seràs capaç de:
 
 ## 📝 Llicència
 
-Aquest material és propietat de **JCM Technologies, SAU** i està destinat exclusivament a ús intern per a formació del personal del Departament de R+D.
+Aquest material està creat per Jordi Beringues de **JCM Technologies, SAU** i està destinat a introduir al món dels agents a tothom qui tingui interès en el tema.
 
 ---
 

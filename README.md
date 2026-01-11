@@ -34,11 +34,17 @@ Segueix aquests 5 passos per estar preparat:
 - Ves a aquest repositori → Botó verd "Code" → "Download ZIP"
 - Descomprimeix-lo al teu ordinador
 
-**Opció B:** Clonar amb Git
+**Opció B:** Clonar amb Git  
+Des de línia de comandes:
 ```bash
 git clone https://github.com/jberingues/FormacioAgents
 ```
 *(Nota: Cal tenir Git instal·lat: https://git-scm.com/downloads)*
+
+**Opció C:** Clonar des de Cursor
+- Apretar botó "Clone repo"
+- Seleccionar "Clone from Github"
+- Entrar aquesta ruta de repositori: https://github.com/jberingues/FormacioAgents
 
 #### 3️⃣ Obrir el projecte
 - Obre Cursor

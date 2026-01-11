@@ -1,5 +1,5 @@
 [project]
-name = "formacioagents"
+name = "notebooks"
 version = "1.0.0"
 description = "Formació d'Agents d'IA amb CrewAI i Google Gemini - JCM Technologies"
 readme = "README.md"

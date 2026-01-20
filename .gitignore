@@ -215,3 +215,4 @@ credentials.json
 token.json
 
 .DS_Store
+notebooks/token.pickle

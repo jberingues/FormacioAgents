@@ -1071,63 +1071,6 @@ wheels = [
 ]
 
 [[package]]
-name = "formacioagents"
-version = "1.0.0"
-source = { editable = "." }
-dependencies = [
-    { name = "crewai" },
-    { name = "crewai-tools" },
-    { name = "google-api-python-client" },
-    { name = "google-auth" },
-    { name = "google-auth-httplib2" },
-    { name = "google-auth-oauthlib" },
-    { name = "google-genai" },
-    { name = "ipykernel" },
-    { name = "ipython", version = "8.37.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
-    { name = "ipython", version = "9.8.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
-    { name = "jupyter" },
-    { name = "langchain-google-genai" },
-    { name = "openai" },
-    { name = "openpyxl" },
-    { name = "pandas" },
-    { name = "pydantic" },
-    { name = "python-dotenv" },
-    { name = "requests" },
-]
-
-[package.optional-dependencies]
-dev = [
-    { name = "black" },
-    { name = "pytest" },
-    { name = "ruff" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "black", marker = "extra == 'dev'", specifier = ">=23.0.0" },
-    { name = "crewai", specifier = ">=0.80.0" },
-    { name = "crewai-tools", specifier = ">=0.12.0" },
-    { name = "google-api-python-client", specifier = ">=2.147.0" },
-    { name = "google-auth", specifier = ">=2.34.0" },
-    { name = "google-auth-httplib2", specifier = ">=0.2.0" },
-    { name = "google-auth-oauthlib", specifier = ">=1.2.0" },
-    { name = "google-genai", specifier = ">=0.1.0" },
-    { name = "ipykernel", specifier = ">=6.25.0" },
-    { name = "ipython", specifier = ">=8.12.0" },
-    { name = "jupyter", specifier = ">=1.0.0" },
-    { name = "langchain-google-genai", specifier = ">=2.0.0" },
-    { name = "openai", specifier = ">=1.0.0" },
-    { name = "openpyxl", specifier = ">=3.1.0" },
-    { name = "pandas", specifier = ">=2.0.0" },
-    { name = "pydantic", specifier = ">=2.0.0" },
-    { name = "pytest", marker = "extra == 'dev'", specifier = ">=7.0.0" },
-    { name = "python-dotenv", specifier = ">=1.0.0" },
-    { name = "requests", specifier = ">=2.31.0" },
-    { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.1.0" },
-]
-provides-extras = ["dev"]
-
-[[package]]
 name = "fqdn"
 version = "1.5.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2926,6 +2869,63 @@ sdist = { url = "https://files.pythonhosted.org/packages/54/d2/92fa3243712b9a3e8
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f9/33/bd5b9137445ea4b680023eb0469b2bb969d61303dedb2aac6560ff3d14a1/notebook_shim-0.2.4-py3-none-any.whl", hash = "sha256:411a5be4e9dc882a074ccbcae671eda64cceb068767e9a3419096986560e1cef", size = 13307, upload-time = "2024-02-14T23:35:16.286Z" },
 ]
+
+[[package]]
+name = "notebooks"
+version = "1.0.0"
+source = { editable = "." }
+dependencies = [
+    { name = "crewai" },
+    { name = "crewai-tools" },
+    { name = "google-api-python-client" },
+    { name = "google-auth" },
+    { name = "google-auth-httplib2" },
+    { name = "google-auth-oauthlib" },
+    { name = "google-genai" },
+    { name = "ipykernel" },
+    { name = "ipython", version = "8.37.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
+    { name = "ipython", version = "9.8.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
+    { name = "jupyter" },
+    { name = "langchain-google-genai" },
+    { name = "openai" },
+    { name = "openpyxl" },
+    { name = "pandas" },
+    { name = "pydantic" },
+    { name = "python-dotenv" },
+    { name = "requests" },
+]
+
+[package.optional-dependencies]
+dev = [
+    { name = "black" },
+    { name = "pytest" },
+    { name = "ruff" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "black", marker = "extra == 'dev'", specifier = ">=23.0.0" },
+    { name = "crewai", specifier = ">=0.80.0" },
+    { name = "crewai-tools", specifier = ">=0.12.0" },
+    { name = "google-api-python-client", specifier = ">=2.147.0" },
+    { name = "google-auth", specifier = ">=2.34.0" },
+    { name = "google-auth-httplib2", specifier = ">=0.2.0" },
+    { name = "google-auth-oauthlib", specifier = ">=1.2.0" },
+    { name = "google-genai", specifier = ">=0.1.0" },
+    { name = "ipykernel", specifier = ">=6.25.0" },
+    { name = "ipython", specifier = ">=8.12.0" },
+    { name = "jupyter", specifier = ">=1.0.0" },
+    { name = "langchain-google-genai", specifier = ">=2.0.0" },
+    { name = "openai", specifier = ">=1.0.0" },
+    { name = "openpyxl", specifier = ">=3.1.0" },
+    { name = "pandas", specifier = ">=2.0.0" },
+    { name = "pydantic", specifier = ">=2.0.0" },
+    { name = "pytest", marker = "extra == 'dev'", specifier = ">=7.0.0" },
+    { name = "python-dotenv", specifier = ">=1.0.0" },
+    { name = "requests", specifier = ">=2.31.0" },
+    { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.1.0" },
+]
+provides-extras = ["dev"]
 
 [[package]]
 name = "numpy"

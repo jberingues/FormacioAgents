@@ -180,9 +180,7 @@ formacioagents/
 ├── notebooks/
 │   ├── 01_conceptes_fonamentals_crewai.ipynb   # Part 1 (1h)
 │   ├── 02_tools_function_calling.ipynb         # Part 2 (1h)
-│   └── 03_cas_practic_crewai.ipynb             # Part 3 (2h)
-│
-├── data/
+│   ├── 03_cas_practic_crewai.ipynb             # Part 3 (2h)
 │   └── Bill_of_Materials-TESTBOM.xlsx          # BOM per test
 │
 └── .venv/                                       # Entorn virtual (creat per UV)
